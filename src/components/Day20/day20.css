@@ -1,0 +1,20 @@
+.day20-btn{
+    width: 3vw;
+    margin-left: 20vw;
+    margin-top: -4vh;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: blanchedalmond;
+    background-color:black;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.empty{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20vh;
+    color: crimson;
+}
