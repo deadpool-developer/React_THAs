@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titled{
+    margin-left: 36vw;
+    display: inline-block;
+    font-size: x-large;
+}
+
+.number{
+    display: inline-block;
+    margin-left: 5vw;
+    font-size: x-large;
+}
+
+
+input{
+    height: 6vh;
+    width: 12vw;
+    border: 2px solid olive;
+    border-radius: 10px;
+}
+
+.tracker{
+    text-align: center;
+    margin-bottom: 6vh;
+    border: 2px solid black;
+    color: white;
+    background-color:olivedrab;
+}
+
+.start-add , .calorie-text{
+    text-align: center;
+    margin-top: 5vh;
+    font-family:monospace;
+    margin-left: 2vw;
+    font-size: x-large;
+
+}
+
+.border{
+    border: 2px solid blanchedalmond;
+    width: 40vw;
+    margin-left: 30vw;
+    background-color: olivedrab;
+    border-radius: 10px;
+    color: papayawhip;
+    margin-top: 4vh;
+}
