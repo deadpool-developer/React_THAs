@@ -5,6 +5,7 @@ import day18 from "./components/Day18/card2";
 import day19 from "./components/Day19/day19";
 import Day20 from "./components/Day20/day20";
 import day21 from "./components/Day21/day21";
+import MemeGenerator from "./components/Day22/meme";
 import Error from "./Error";
 
  function App(){
@@ -17,6 +18,7 @@ import Error from "./Error";
                  <Route exact path="/day19" component={day19}/>
                  <Route exact path = "/day20" component={Day20}/>
                  <Route exact path="/day21" component={day21}/>
+                 <Route exact path= "/day22" component = {MemeGenerator}/>
                  <Route component={Error}/>
              </Switch>
          </Router>
