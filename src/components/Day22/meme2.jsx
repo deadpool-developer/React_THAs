@@ -8,16 +8,18 @@ const Meme = ({ meme, setMeme }) => {
         boxes: []
     });
 
-    const GenerateMeme = () => {
+    const generateMeme = () => {
         let url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
         form.boxes.map((boxes, index) => {
-            return url += `&boxes[${index}][text]=${boxes.text}`;
+             url += `&boxes[${index}][text]=${boxes.text}`;
         });
+        console.log(url)
         fetch(url).then(res => res.json)
             .then(data => {
                 setMeme({...meme, url: data.data.url})
             })
     };
+
 
     return (
         <div className="meme-show">
@@ -41,7 +43,7 @@ const Meme = ({ meme, setMeme }) => {
                 ))}
             </div>
             <div>
-                <button className="btn" onClick={GenerateMeme}>Generate Meme</button>
+                <button className="btn" onClick={generateMeme}>Generate Meme</button>
                 <button className="btn" onClick={() => {
                     setMeme(null);
                 }}>Choose Template</button>
