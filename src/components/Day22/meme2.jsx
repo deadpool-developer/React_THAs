@@ -8,14 +8,23 @@ const Meme = ({ meme, setMeme }) => {
         boxes: []
     });
 
+    const [error, setError] = useState(false);
+
     const generateMeme = () => {
-        let url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
+        let url = `https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}&`;
         form.boxes.map(
             (box, index) => (url += `&boxes[${index}][text]=${box.text}`)
         );
         fetch(url)
-        .then((res) => res.json())
-        .then((data) => setMeme({...meme, url: data.data.url}));
+            .then((res) => res.json())
+            .then((data) => {
+                if (data.success) {
+                    setMeme({ ...meme, url: data.data.url });
+                    setError(false);
+                } else {
+                    setError(true);
+                }
+            });
     };
 
     return (
@@ -31,15 +40,18 @@ const Meme = ({ meme, setMeme }) => {
                             margin: "10px",
                             border: "1px solid black"
                         }}
-                        type="text" 
+                        type="text"
                         placeholder={`Meme Caption ${index + 1}`}
                         onClick={(e) => {
                             const newBoxes = form.boxes;
                             newBoxes[index] = { text: e.target.value };
                             setForm({ ...form, boxes: newBoxes });
-                        }} />
+                        }}
+                    />
                 ))}
             </div>
+
+            {error && <p className="error-message">Fill the Caption field</p>}
             <div>
                 <button className="btn" onClick={generateMeme}>Generate Meme</button>
                 <button className="btn" onClick={() => {

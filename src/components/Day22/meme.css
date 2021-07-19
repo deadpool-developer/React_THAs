@@ -55,3 +55,20 @@ body{
     background-color: black;
     color: thistle;
 }
+
+.template_name{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.error-message{
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
