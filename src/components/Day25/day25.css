@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tail{
+    margin-left: 35vw;
+    margin-top: -62vh;
+    border: 2px solid black;
+}
