@@ -1,0 +1,22 @@
+.day23 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .day23-btn{
+    justify-content: center;
+    align-items: center;
+    
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
