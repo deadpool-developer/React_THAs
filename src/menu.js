@@ -8,6 +8,7 @@ import day21 from "./components/Day21/day21";
 import MemeGenerator from "./components/Day22/meme";
 import Day23 from "./components/Day23/day23";
 import Bootstrap from "./components/Day25/day25";
+import Apps from "./components/Day26/Apps";
 import Error from "./Error";
 
 
@@ -25,6 +26,7 @@ import Error from "./Error";
                  <Route exact path= "/day22" component = {MemeGenerator}/>
                  <Route exact path= "/day23" component= {Day23}/>
                  <Route exact path = "/day25" component = {Bootstrap}/>
+                 <Route exact path="/day26" component= {Apps}/>
                  <Route component={Error}/>
              </Switch>
          </Router>

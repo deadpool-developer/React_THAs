@@ -3,7 +3,8 @@ import { Card } from "react-bootstrap";
 import {ListGroupItem  } from "react-bootstrap";
 import {ListGroup  } from "react-bootstrap";
 import "./day25.css"
-import wallpaper from "./wallpaper.jpg" 
+import wallpaper from "./wallpaper.jpg" ;
+
 
 function Bootstrap() {
   return (
@@ -49,4 +50,4 @@ function Bootstrap() {
   );
 }
 
-export default Bootstrap;
+export default Bootstrap; 
