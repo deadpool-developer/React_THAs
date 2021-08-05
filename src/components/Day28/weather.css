@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.temp{
+    font-family: monospace;
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 30.39px;
+}
+
+.place{
+    font-size: 1.2rem;
+    font-family: 'Mate SC', serif;
+    opacity: 0.8;
+}
+
+.card img{
+    width: 30%;
+}
+
+.heading{
+    text-align: center;
+    color: burlywood;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 3rem;
+    text-shadow: 3px 4px 2px rgba(113, 143, 106, 1);
+    position: relative;
+    background:blanchedalmond;
+    margin-top: -2vh;
+}
+
+.title_{
+    margin-top: 10vh;
+    font-size: 0.8rem;
+}
+
+.data{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.unit{
+    font-size: 0.8rem;
+}
+
+.country{
+    font-size: 0.8rem;
+}
+
+.text{
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+    font-family: 'Mate SC', serif;
+}
