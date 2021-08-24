@@ -12,6 +12,7 @@ import Bootstrap from "./components/Day25/day25";
 import Apps from "./components/Day26/Apps";
 import Day27 from "./components/Day27";
 import Day28 from "./components/Day28/Weather";
+import WeatherDay29 from "./components/Day29";
 import Error from "./Error";
 
 
@@ -33,6 +34,7 @@ import Error from "./Error";
                  <Route exact path="/day26" component= {Apps}/>
                  <Route exact path= "/day27" component= {Day27}/>
                  <Route exact path= "/day28" component= {Day28}/>
+                 <Route exact path= "/day29" component= {WeatherDay29}/>
                  <Route component={Error}/>
              </Switch>
          </Router>

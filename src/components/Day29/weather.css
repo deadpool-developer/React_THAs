@@ -1,0 +1,321 @@
+.day29_weather
+{
+    margin: auto;
+    background-color: transparent;
+    width: 550px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+.day29_input
+{
+    margin-left: 130px;
+    height: 40px;
+    width: 290px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 27px;
+    
+}
+.day29_inputdark
+{
+    margin-left: 130px;
+    height: 40px;
+    width: 290px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 27px;
+    
+}
+
+.day29_btn
+{
+    margin-left: 20px;
+    margin-top: -8px;
+    
+    
+}
+
+
+.day29_content
+{
+    
+  
+    transform:
+    perspective(800px);
+    
+  transition: transform 1s ease 0s;
+  border-radius: 4px;
+  box-shadow:
+  rgba(219, 22, 22, 0.024) 0px 0px 0px 1px,
+  rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+  rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+  rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+
+ width: 550px;
+ height: 420px;
+ margin: auto;
+ background: rgb(5,133,228);
+background: linear-gradient(90deg, rgba(5,133,228,1) 0%, rgba(80,219,251,1) 52%, rgba(5,133,228,1) 100%, rgba(0,212,255,1) 100%);
+ margin-left: 440px;
+ margin-top: 20px;
+ 
+}
+
+.day29_contentdark
+{
+    
+  
+    transform:
+    perspective(800px);
+    
+  transition: transform 1s ease 0s;
+  border-radius: 4px;
+  box-shadow:
+  rgba(219, 22, 22, 0.024) 0px 0px 0px 1px,
+  rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+  rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+  rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+
+ width: 550px;
+ height: 420px;
+ margin: auto;
+ 
+background: rgb(27 ,27 ,27);
+color:white;
+margin-top: 20px;
+ margin-left: 440px;
+ 
+ 
+}
+
+.day29_h1
+{
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 40px;
+    
+    
+}
+
+.day29_h3
+{
+    margin-left: 92px;
+    font-size: 20px;
+    
+}
+
+.day29_country
+{
+    position: fixed;
+    top: 10px;
+    width: 200px;
+    background-color: transparent;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.day29_h4
+{
+    text-align: center;
+    position: fixed;
+    top: 130px;
+    left: 245px;
+    font-size: 50px;
+    color:yellow;
+}
+
+.day29_img
+{
+    width: 130px;
+    height: 130px;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+.day29_h6
+{
+    font-size: 20px;
+    margin-top: 40px;
+    
+    
+}
+
+.day29_text
+{
+    width: 200px;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.day29_hour
+{
+    
+    color: white;
+    margin-top: -10px;
+}
+
+.day29_h7
+{
+    font-size: large;
+    margin-left: 10px;
+    
+}
+
+.day29_h8
+{
+    font-size: large;
+    margin-left: 180px;
+   
+    
+}
+
+.day29_h9
+{
+    font-size: large;
+    margin-left: 140px;
+}
+
+.day29_wind
+{
+   color: black;
+   float: left;
+   margin-left: 19px;
+   text-align: center;
+   font-weight: 500;
+}
+.day29_wind_dark
+{
+   color: white;
+   float: left;
+   margin-left: 19px;
+   text-align: center;
+   font-weight: 500;
+}
+
+.day29_humidity
+{
+    color: black;
+    float: left;
+    margin-left: 157px;
+    text-align: center;
+    font-weight: 500;
+}
+.day29_humidity_dark
+{
+    color: white;
+    float: left;
+    margin-left: 157px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.day29_prec
+{
+    color: black;
+    float: left;
+    margin-left: 130px;
+    text-align: center;
+    font-weight: 500;
+}
+.day29_prec_dark
+{
+    color: white;
+    float: left;
+    margin-left: 130px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.day29_wph_img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.day29_h2
+{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top:120px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blue;
+}
+
+.day29_img2
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.day29_temp1
+{
+    margin-left: 58px;
+    color: yellow;
+    font-weight: 500;
+    text-shadow: black;
+    font-size: large;
+}
+
+.day29_temp2
+{
+    margin-left: 41px;
+    color: yellow;
+    font-weight: 500;
+    font-size: large;
+}
+.day29_temp3
+{
+    margin-left: 50px;
+    color: yellow;
+    font-weight: 500;
+    font-size: large;
+
+}
+.day29_temp4
+{
+    margin-left: 47px;
+    color: yellow;
+    font-weight: 500;
+    font-size: large;
+}
+
+.day29_temp5
+{
+    margin-left: 45px;
+    color: yellow;
+    font-weight: 500;
+    font-size: large;
+}
+.App_light
+{
+    height: 100vh;
+    color: black;
+    background-color: white;
+    
+
+}
+.App_dark
+{
+    height: 100vh;
+    
+    background-color: black;
+    color: white;
+}
