@@ -16,6 +16,7 @@ import WeatherDay29 from "./components/Day29";
 import Day30 from "./components/Day30_31/Day30";
 import Typescript from "./components/Day32/Type";
 import App2 from "./components/Day33/App2";
+import Day34 from "./components/Day34";
 import Error from "./Error";
 
 
@@ -41,6 +42,7 @@ import Error from "./Error";
                  <Route exact path = "/day30" component = {Day30}/>
                  <Route exact path= "/day32" component={Typescript}/>
                  <Route exact path= "/day33" component={App2}/>
+                 <Route exact path= "/day34" component={Day34}/>
                  <Route component={Error}/>
              </Switch>
          </Router>
